@@ -1,15 +1,41 @@
-[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v1.4%20adopted-ff69b4.svg)](CODE_OF_CONDUCT.md) 
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v1.4%20adopted-ff69b4.svg)](CODE_OF_CONDUCT.md)
 
 # GC Design Token Experimental Working Space
 
 ([Français](#espace-de-travail-experimental-sur-les-jetons-de-conceptions-du-gouvernement-canadien))
 
 A repository set as the experimental space for design tokens that should inform the GC Design System Product Team. We will primarily explore the naming convention of design tokens through the use of tools like:
-* [Style Dictionary](https://amzn.github.io/style-dictionary) 
+* [Style Dictionary](https://amzn.github.io/style-dictionary)
 * [Diez](https://diez.org/)
 * [Theo](https://github.com/salesforce-ux/theo)
 
 ### How to Contribute
+
+This project was created with [Diez](https://diez.org).
+
+#### What's in the box
+
+The `design-language` directory contains a Diez design language project. It is the living source of truth for your design language.
+
+The `example-codebases` directory contains example projects connected to your Diez project. Note that the example apps are only present for demonstration purposes, and can be safely removed.
+
+```
+.
+├── design-language
+|   └── src
+|       ├── index.ts
+|       └── DesignLanguage.ts
+└── example-codebases
+    ├── android
+    ├── ios
+    └── web
+```
+
+#### Quickstart
+
+To quickly experience how Diez works, simply run `yarn demo` or `npm run demo` from `design-language`. This command will use Diez to compile a JavaScript SDK for your design language and link it to the example web project located in `codebases/web`, then start the example web project in your browser.
+
+Check out our [Getting Started guide](https://diez.org/getting-started/) to learn more.
 
 See [CONTRIBUTING.md](CONTRIBUTING.md)
 
@@ -27,7 +53,7 @@ ______________________
 ([English](#gc-design-token-experimental-working-space))
 
 Un dépôt de code défini comme l'espace de travail expérimental pour les jetons de conception qui devrait informer l'Équipe de produit du système de conception GC. Nous explorerons principalement la convention de nommage des jetons de conception à l'aide d'outils tels que&nbsp;:
-* [Style Dictionary](https://amzn.github.io/style-dictionary) 
+* [Style Dictionary](https://amzn.github.io/style-dictionary)
 * [Diez](https://diez.org/)
 * [Theo](https://github.com/salesforce-ux/theo)
 
