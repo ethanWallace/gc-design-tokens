@@ -2,7 +2,7 @@
   "colour": {
     "utils": {
       "blue": {
-        "value": "#0535D2",
+        "value": "blue",
         "type": "color",
         "description": "Used for hovered links"
       },
@@ -227,10 +227,12 @@
   },
   "font-style": {
     "normal": {
-      "value": "normal"
+      "value": "normal",
+      "type": "other"
     },
     "italic": {
-      "value": "italic"
+      "value": "italic",
+      "type": "other"
     }
   },
   "font-weight": {
