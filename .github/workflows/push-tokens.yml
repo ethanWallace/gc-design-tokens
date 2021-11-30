@@ -22,5 +22,5 @@ jobs:
           target-directory: 'src/variables/'
           destination-github-username: 'ethanWallace'
           destination-repository-name: 'gc-ds-core'
-          user-email: ethan.wallace.91@gmail.com
+          user-email: ${{ secrets.USER_EMAIL }}
           target-branch: main
