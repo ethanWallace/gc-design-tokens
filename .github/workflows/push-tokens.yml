@@ -16,7 +16,7 @@ jobs:
         env:
           API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
         with:
-          source-directory: '/build/web/'
+          source-directory: './build/web/'
           target-directory: '/src/variables/'
           destination-github-username: 'ethanWallace'
           destination-repository-name: 'gc-ds-core'
